@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME PAGE</title>
-    <header style="background-color: rgb(166, 75, 252); text-align: center;">
-        <h1 style="color: black;">WELCOME TO OUR WEBSITE</h1>
-
+    <header>
+        <img src="./LOGO.png" alt="LOGO" style="width: 100px; height: 100px; border: 2px solid black;"> 
+        <h1 style="color: black; text-align: center;">WELCOME TO OUR STUDY ACADEMY</h1>
     </header>
     <style>
+        .card{
+        width: 300px;
+        height: auto;   
+        background-color: aquamarine;
+        border: 2px solid blueviolet;
+        padding: 20px;
+        margin: auto;
+        }
     button{
         padding: 10px 20px;
         font-size: larger;
@@ -23,10 +31,13 @@
     </style>
 </head>
 <body style="background-color:blanchedalmond;">
-   
+   <div class="card">
+   <h3 style="background-color: rgb(166, 75, 252);text-align: center; padding: 15px; border: 2px solid black;">HEY USER! WELCOME TO OUR WEBSITE!</h3> 
+
     <h3 style="text-align: center;">DO YOU HAVE AN ACCOUNT?</h3>
     <button style="display: block; margin: 0 auto; color: blueviolet;" onclick="window.location.href='login.html'">Go to Login</button>
     <H3 style="text-align: center;"> ARE YOU NEW TO THE SITE?</H3>
     <button style="display: block;margin: auto; color: blueviolet;" onclick="window.location.href='register.html'">Go to Registration</button>
+    </div>
 </body>
 </html>

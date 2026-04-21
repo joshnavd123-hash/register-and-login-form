@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
         <style>
+            .card{
+        width: 300px;
+        height: auto;
+        background-color: aquamarine;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid blueviolet;        
+            }
     button{
         padding: 10px 20px;
         font-size: larger;
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        border: 2px solid blueviolet;
     }
     button:hover{
         background-color: lightcoral;
@@ -20,13 +29,15 @@
     </style>
 </head>
 <body style="background-color: blanchedalmond;">
-    <h1 style="text-align: center;"><u>Login Form</u></h1>
-            <h3 style="background-color: rgb(166, 75, 252); text-align: center; padding: 15px;">WELCOME BACK TO OUR FAVORITE CUSTOMER!</h3> 
+    <h1 style="text-align: center;"><u>Login Form</u></h1><br>
+    <div class="card">
+            <h3 style="background-color: rgb(166, 75, 252); text-align: center; padding: 15px; border: 2px solid black;">WELCOME BACK TO OUR FAVORITE CUSTOMER!</h3> <br>
             <form style="text-align: center;">
-                <lable style="color: rgb(228, 19, 19);"> USERNAME: </lable><input type="text" placeholder="ENTER YOUR NAME" autofocus/><br><BR>
-                <lable style="color: rgb(225, 17, 17);"> PASSWORD: </lable><input type="password" placeholder="ENTER YOUR PASSWORD" autofocus/><br><BR>
+                <lable style="color: rgb(228, 19, 19);"> USERNAME: </lable><input type="text" placeholder="ENTER YOUR NAME" autofocus/><br><BR><br>
+                <lable style="color: rgb(225, 17, 17);"> PASSWORD: </lable><input type="password" placeholder="ENTER YOUR PASSWORD" autofocus/><br><BR><br>
                 <button style="color: blueviolet;">LOGIN</button>
             </form>
+            </div>
             <h3 style="text-align: center;">Don't have an account?</h3>
              <a href="register.html" style="display: block; text-align: center; color: blue;">Register here</a>
 </body>
